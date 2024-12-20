@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+  }
+  
+  .login-container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 80vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .login-left {
+    width: 50%;
+    /* background-color: #fff; */
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  
+  .login-right {
+    width: 70%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; /* Alignement du contenu à droite */
+    padding: 60px;
+    text-align: right; /* Alignement du texte à droite */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    background-color: #4a4aff;
+    box-shadow: 0px 40px 50px rgba(0, 0, 0, 0.4); /* Ajustement pour une ombre plus floue et décalée vers le bas */
+}
+
+
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .underline {
+    width: 60px;
+    height: 3px;
+    background-color: #4a4aff;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #4a4aff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-link {
+      margin-top: 15px;
+      font-size: 0.9em;
+      color: #333;
+    }
+
+  .login-link a {
+      color: #4a4aff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+  .login-link a:hover {
+      text-decoration: underline;
+    }
+
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .google-button, .facebook-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .google-button {
+    background-color: #db4437;
+  }
+  
+  .facebook-button {
+    background-color: #4267B2;
+  }
+  
+  .login-right h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-right p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .shop-icon {
+    width: 100px;
+    height: auto;
+  }
+  
